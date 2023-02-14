@@ -9,11 +9,11 @@
   */
   
 ###
-POST http://localhost:3000/addcost
+POST https://cost-manager-restful-web-services-project.onrender.com/addcost
 Content-Type: application/json
 
 {
-  "user_id": "123",
+  "user_id": "1111",
   "year": 2023,
   "month": 1,
   "day": 5,
@@ -50,7 +50,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/report/?user_id=12345&month=1&year=2023
+GET https://cost-manager-restful-web-services-project.onrender.com/report/?user_id=1111&month=1&year=2023
 Content-Type: application/json
 
 ###
