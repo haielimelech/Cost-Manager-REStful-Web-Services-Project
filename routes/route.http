@@ -13,7 +13,7 @@ POST http://localhost:3000/addcost
 Content-Type: application/json
 
 {
-  "user_id": "12345",
+  "user_id": "123",
   "year": 2023,
   "month": 1,
   "day": 5,
