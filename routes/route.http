@@ -1,0 +1,58 @@
+/* Developers Details: 
+  First Name:Hai
+  Last Name:Elimelech
+  Id:315942458
+
+  First Name:Adir
+  Last Name:Solomon
+  Id:206825440
+  */
+  
+###
+POST http://localhost:3000/addcost
+Content-Type: application/json
+
+{
+  "user_id": "12345",
+  "year": 2023,
+  "month": 1,
+  "day": 5,
+  "description": "walk in the park",
+  "category": "health",
+  "sum": 3
+}
+
+###
+POST http://localhost:3000/addcost
+Content-Type: application/json
+
+{
+  "user_id": "12345",
+  "year": 2023,
+  "month": 1,
+  "day": 10,
+  "description": "pizza",
+  "category": "food",
+  "sum": 4
+}
+###
+POST http://localhost:3000/addcost
+Content-Type: application/json
+
+{
+  "user_id": "1111111",
+  "year": 2024,
+  "month": 3,
+  "day": 10,
+  "description": "different cost item",
+  "category": "food",
+  "sum": 5
+}
+
+###
+GET http://localhost:3000/report/?user_id=12345&month=1&year=2023
+Content-Type: application/json
+
+###
+GET http://localhost:3000/about
+Content-Type: application/json
