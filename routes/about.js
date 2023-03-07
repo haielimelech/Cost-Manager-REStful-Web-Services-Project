@@ -1,12 +1,3 @@
-/* Developers Details: 
-  First Name:Hai
-  Last Name:Elimelech
-  Id:315942458
-
-  First Name:Adir
-  Last Name:Solomon
-  Id:206825440
-  */
 
 const express = require('express');
 const router = express.Router();
@@ -16,16 +7,16 @@ router.get('/', (req, res) => {
     return new Promise((resolve, reject) => {
       const developers = [
         {
-          firstname: "Hai",
-          lastname: "Elimelech",
-          id: "315942458",
-          email: "hai842@gmail.com"
+          firstname: "developer",
+          lastname: "one",
+          id: "111222333",
+          email: "developerone@gmail.com"
         },
         {
-         firstname: "Adir",
-          lastname: "Solomon",
-          id: "206825440",
-          email: "adir199@gmail.com"
+         firstname: "developer",
+          lastname: "two",
+          id: "112233333",
+          email: "developertwo@gmail.com"
         }
       ];
       resolve(developers);

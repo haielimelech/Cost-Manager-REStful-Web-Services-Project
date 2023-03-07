@@ -1,13 +1,3 @@
-/* Developers Details: 
-  First Name:Hai
-  Last Name:Elimelech
-  Id:315942458
-
-  First Name:Adir
-  Last Name:Solomon
-  Id:206825440
-  */
-
 require('dotenv').config();
 const express = require('express');
 const app = express();

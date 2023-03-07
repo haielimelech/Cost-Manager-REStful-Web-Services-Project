@@ -1,13 +1,4 @@
-/* Developers Details: 
-  First Name:Hai
-  Last Name:Elimelech
-  Id:315942458
 
-  First Name:Adir
-  Last Name:Solomon
-  Id:206825440
-  */
- 
   const express = require('express');
   const router = express.Router();
   const CostItemModel = require('../models/costitemmodel');
@@ -70,11 +61,6 @@
       })
       .catch((error) => res.status(500).send(error));
 
-      /*
-      report.save()
-      .then(() => res.send('report added successfully!'))
-      .catch((error) => res.send(error));
-      */
     }
     else{
        console.log("report exist");
